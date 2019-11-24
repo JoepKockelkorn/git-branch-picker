@@ -1,0 +1,6 @@
+node_modules
+.prettierrc
+.editorconfig
+.gitignore
+.git
+yarn.lock

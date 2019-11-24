@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const main = require('./main');
 const { logError } = require('./logging');
 
