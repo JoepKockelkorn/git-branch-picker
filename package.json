@@ -1,6 +1,6 @@
 {
   "name": "git-branch-picker",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A command line utility to pick a local git branch.",
   "main": "index.js",
   "repository": "https://github.com/JoepKockelkorn/git-branch-picker.git",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "commander": "^4.0.1",
-    "inquirer": "^7.0.0"
+    "inquirer": "^7.0.0",
+    "isomorphic-git": "^0.70.7"
   }
 }
