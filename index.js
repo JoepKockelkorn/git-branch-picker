@@ -5,6 +5,10 @@
 
   const { current, all: branches } = await simpleGit.branchLocal();
   const filteredBranches = branches.filter(b => b !== current);
+  if (filteredBranches.length === 0) {
+    console.log('Your current branch is the only branch.');
+    return;
+  }
   const { branch } = await inquirer.prompt({
     name: 'branch',
     message: 'Which branch would you like to checkout?',
