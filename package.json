@@ -9,6 +9,6 @@
   "private": true,
   "dependencies": {
     "inquirer": "^7.0.0",
-    "isomorphic-git": "^0.70.7"
+    "simple-git": "^1.126.0"
   }
 }
