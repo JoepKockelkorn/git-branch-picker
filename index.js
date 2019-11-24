@@ -13,4 +13,5 @@
   });
   console.log(`Checking out ${branch}`);
   await simpleGit.checkout(branch);
+  console.log(`Successfully checked out ${branch}`);
 })().catch(e => console.error(e.message));
