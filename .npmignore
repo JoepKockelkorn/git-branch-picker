@@ -1,6 +1,9 @@
 node_modules
+src
 .prettierrc
 .editorconfig
 .gitignore
 .git
+tsconfig.json
 yarn.lock
+yarn-error.log

@@ -7,12 +7,20 @@
   "author": "Joep Kockelkorn",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
   "bin": {
-    "git-branch-picker": "index.js"
+    "git-branch-picker": "dist/index.js"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
-    "inquirer": "^7.0.0",
-    "simple-git": "^1.126.0"
+    "chalk": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "simple-git": "^1.132.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.11.0",
+    "typescript": "^3.8.3"
   }
 }
