@@ -1,9 +1,8 @@
 #!/usr/bin/env node
+import { main } from './main';
+import { logError } from './logging';
 
-const main = require('./main');
-const { logError } = require('./logging');
-
-main().catch(e => {
+main().catch((e) => {
   const message = e.message || 'Oops, something went wrong...';
   logError(message);
 });

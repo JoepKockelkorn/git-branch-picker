@@ -1,11 +1,11 @@
-module.exports = async function main() {
-  const inquirer = require('inquirer');
-  const simpleGit = require('simple-git/promise');
-  const { logSuccess, log } = require('./logging');
+import * as inquirer from 'inquirer';
+import simpleGit from 'simple-git/promise';
+import { log, logSuccess } from './logging';
 
+export async function main() {
   const git = simpleGit().silent(true);
   const { current, all: branches } = await git.branchLocal();
-  const filteredBranches = branches.filter(b => b !== current);
+  const filteredBranches = branches.filter((b) => b !== current);
   if (filteredBranches.length === 0) {
     log('Your current branch is the only branch.');
     return;
@@ -18,4 +18,4 @@ module.exports = async function main() {
   });
   await git.checkout(branch);
   logSuccess(`Successfully checked out ${branch}`);
-};
+}
