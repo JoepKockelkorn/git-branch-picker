@@ -1,6 +1,6 @@
 {
   "name": "git-branch-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line utility to pick a local git branch.",
   "main": "index.js",
   "repository": "https://github.com/JoepKockelkorn/git-branch-picker.git",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "clean": "rm -rf dist",
     "build": "tsc"
   },
   "bin": {
@@ -16,11 +17,11 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "inquirer": "^7.1.0",
-    "simple-git": "^1.132.0"
+    "simple-git": "^2.15.0"
   },
   "devDependencies": {
-    "@types/inquirer": "^6.5.0",
-    "@types/node": "^13.11.0",
+    "@types/inquirer": "^7.3.0",
+    "@types/node": "^14.0.27",
     "typescript": "^3.8.3"
   }
 }

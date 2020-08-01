@@ -13,3 +13,7 @@ Then pick your branch from the list with the arrow keys and press Enter.
 ## Issues
 
 Please submit them in the Git repository.
+
+## Test locally
+
+Run `yarn build` and then `node dist/index.js`
