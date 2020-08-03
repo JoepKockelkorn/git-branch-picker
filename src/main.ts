@@ -3,7 +3,7 @@ import simpleGit from 'simple-git/promise';
 import { log, logSuccess } from './logging';
 
 export async function main() {
-  const git = simpleGit().silent(true);
+  const git = simpleGit();
   const { current, all: branches } = await git.branchLocal();
   const filteredBranches = branches.filter((b) => b !== current);
   if (filteredBranches.length === 0) {

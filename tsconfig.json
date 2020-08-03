@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2015",
     "module": "commonjs",
     "lib": ["ESNext"],
     "outDir": "./dist",
@@ -11,5 +11,6 @@
     "types": ["node"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "exclude": ["**/*.spec.ts"]
 }

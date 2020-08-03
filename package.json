@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "yarn clean && yarn build && yarn jest"
   },
   "bin": {
     "git-branch-picker": "dist/index.js"
@@ -21,7 +22,10 @@
   },
   "devDependencies": {
     "@types/inquirer": "^7.3.0",
+    "@types/jest": "^26.0.8",
     "@types/node": "^14.0.27",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
     "typescript": "^3.8.3"
   }
 }
