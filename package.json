@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "clean": "rm -rf dist",
+    "prebuild": "rm -rf dist",
     "build": "tsc",
-    "test": "yarn clean && yarn build && yarn jest"
+    "test": "jest"
   },
   "bin": {
     "git-branch-picker": "dist/index.js"

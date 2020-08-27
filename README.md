@@ -14,6 +14,12 @@ Then pick your branch from the list with the arrow keys and press Enter.
 
 Please submit them in the Git repository.
 
-## Test locally
+## Test
 
-Run `yarn build` and then `node dist/index.js`
+### Unit tests
+
+Run `yarn test`.
+
+### Manual (e2e) tests
+
+Run `yarn clean && yarn build && node dist/index.js`. Make sure to also test with having more than one branch.
