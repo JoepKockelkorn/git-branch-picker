@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "install:ci": "yarn install --frozen-lockfile",
     "prebuild": "rm -rf dist",
     "build": "tsc",
     "test": "jest"
