@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "install:ci": "yarn install --frozen-lockfile",
+    "commit": "cz",
     "prebuild": "rm -rf dist",
     "build": "tsc",
     "test": "jest"
@@ -22,9 +23,14 @@
     "simple-git": "^2.15.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@types/inquirer": "^7.3.0",
     "@types/jest": "^26.0.8",
     "@types/node": "^14.0.27",
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.2.5",
     "jest": "^26.2.2",
     "ts-jest": "^26.1.4",
     "typescript": "^4.0.2"
