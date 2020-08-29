@@ -8,6 +8,7 @@ on:
 
 jobs:
   lint-commit:
+    if: ${{ !contains(github.event.head_commit.message , '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,6 +21,7 @@ jobs:
       - uses: wagoid/commitlint-github-action@v2
 
   build:
+    if: ${{ !contains(github.event.head_commit.message , '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -30,6 +32,7 @@ jobs:
       - run: yarn build
 
   test:
+    if: ${{ !contains(github.event.head_commit.message , '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,6 +43,7 @@ jobs:
       - run: yarn test
 
   publish:
+    if: ${{ !contains(github.event.head_commit.message , '[skip ci]') && github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     needs: [lint-commit, test, build]
     steps:
