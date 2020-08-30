@@ -8,7 +8,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["dist", "package.json", "README.md", "CHANGELOG.md"]
+        "assets": ["dist/*.js", "package.json", "README.md", "CHANGELOG.md"]
       }
     ]
   ]
