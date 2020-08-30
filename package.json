@@ -12,7 +12,8 @@
     "commit": "cz",
     "prebuild": "rm -rf dist",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "yarn build"
   },
   "bin": {
     "git-branch-picker": "dist/index.js"
