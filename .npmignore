@@ -4,6 +4,13 @@ src
 .editorconfig
 .gitignore
 .git
+.github
+.czrc
+.huskyrc.json
+.releaserc.json
+commitlint.config.js
+jest.config.js
 tsconfig.json
+tsconfig.spec.json
 yarn.lock
 yarn-error.log
