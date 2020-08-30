@@ -49,7 +49,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          fetch-depth: 0 # needed to determine next version
+          persist-credentials: false # otherwise GH_TOKEN env variable will interfere with persisted generated token
+      - name: Fetch all tags
+        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # needed to determine next version
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
