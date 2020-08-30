@@ -6,7 +6,8 @@ src
 .git
 .github
 .czrc
-.huskyrc
+.huskyrc.json
+.releaserc.json
 commitlint.config.js
 jest.config.js
 tsconfig.json
