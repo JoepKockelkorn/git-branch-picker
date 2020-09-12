@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/git-branch-picker.svg)](https://badge.fury.io/js/git-branch-picker)
+
 # git-branch-picker 👨‍💻
 
 This tool allows you to pick a local git branch from a list, instead of running `git branch` and then retyping the specific branch identifier with `git checkout`.
