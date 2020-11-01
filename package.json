@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "install:ci": "yarn install --frozen-lockfile",
     "commit": "cz",
     "prebuild": "rm -rf dist",
     "build": "tsc",
