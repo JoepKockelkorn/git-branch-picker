@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.3...v1.1.4) (2020-12-13)
+
+
+### Bug Fixes
+
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([#15](https://github.com/JoepKockelkorn/git-branch-picker/issues/15)) ([e519969](https://github.com/JoepKockelkorn/git-branch-picker/commit/e519969f9d159a49bff33c61496999e164e6e9a4))
+
 ## [1.1.3](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.2...v1.1.3) (2020-09-12)
 
 ## [1.1.2](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.1...v1.1.2) (2020-09-11)
