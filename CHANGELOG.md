@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.4...v1.1.5) (2020-12-22)
+
+
+### Bug Fixes
+
+* **deps:** bump node-notifier from 8.0.0 to 8.0.1 ([#16](https://github.com/JoepKockelkorn/git-branch-picker/issues/16)) ([3dde82c](https://github.com/JoepKockelkorn/git-branch-picker/commit/3dde82c9cd2d08d83423907d5287bc5b9b1188c4))
+
 ## [1.1.4](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.3...v1.1.4) (2020-12-13)
 
 
