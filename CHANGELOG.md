@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.5...v1.1.6) (2021-02-10)
+
+
+### Bug Fixes
+
+* **deps:** upgrade packages ([#17](https://github.com/JoepKockelkorn/git-branch-picker/issues/17)) ([4d41197](https://github.com/JoepKockelkorn/git-branch-picker/commit/4d4119700f1ab16c1c425504691b6aacf9190ac1))
+
 ## [1.1.5](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.4...v1.1.5) (2020-12-22)
 
 
