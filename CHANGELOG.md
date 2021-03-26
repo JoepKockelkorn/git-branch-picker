@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.6...v2.0.0) (2021-03-26)
+
+
+### Bug Fixes
+
+* upgrade dependencies and node ([#18](https://github.com/JoepKockelkorn/git-branch-picker/issues/18)) ([4d3386f](https://github.com/JoepKockelkorn/git-branch-picker/commit/4d3386f8b955947116afff36a784d8b1cab82862))
+
+
+### BREAKING CHANGES
+
+* Support for 12.x is dropped
+
 ## [1.1.6](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.5...v1.1.6) (2021-02-10)
 
 
