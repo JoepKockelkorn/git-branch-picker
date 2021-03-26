@@ -7,6 +7,9 @@
   "author": "Joep Kockelkorn",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": ">=14 <15"
+  },
   "scripts": {
     "commit": "cz",
     "prebuild": "rm -rf dist",
