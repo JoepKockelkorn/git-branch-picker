@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.1...v2.0.2) (2021-05-10)
+
+
+### Bug Fixes
+
+* **deps:** bump ssri from 6.0.1 to 6.0.2 ([#19](https://github.com/JoepKockelkorn/git-branch-picker/issues/19)) ([eeb8552](https://github.com/JoepKockelkorn/git-branch-picker/commit/eeb85524bab3273b72b54cf2d03f6c4a18f977a5))
+
 ## [2.0.1](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.0...v2.0.1) (2021-05-10)
 
 
