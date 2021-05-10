@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.0...v2.0.1) (2021-05-10)
+
+
+### Bug Fixes
+
+* **deps:** bump handlebars from 4.7.6 to 4.7.7 ([#20](https://github.com/JoepKockelkorn/git-branch-picker/issues/20)) ([1438a38](https://github.com/JoepKockelkorn/git-branch-picker/commit/1438a385b3fa00bb1491bf7efec186c3741c2889))
+
 # [2.0.0](https://github.com/JoepKockelkorn/git-branch-picker/compare/v1.1.6...v2.0.0) (2021-03-26)
 
 
