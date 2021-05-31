@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.2...v2.0.3) (2021-05-31)
+
+
+### Bug Fixes
+
+* **deps:** bump ws from 7.3.1 to 7.4.6 ([#21](https://github.com/JoepKockelkorn/git-branch-picker/issues/21)) ([4f1bbe0](https://github.com/JoepKockelkorn/git-branch-picker/commit/4f1bbe0414506a041595808ae7d652c9c8a2cdf8))
+
 ## [2.0.2](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.1...v2.0.2) (2021-05-10)
 
 
