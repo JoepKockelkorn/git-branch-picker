@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.3...v2.0.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* **deps:** bump trim-newlines from 3.0.0 to 3.0.1 ([#23](https://github.com/JoepKockelkorn/git-branch-picker/issues/23)) ([7cd5fa9](https://github.com/JoepKockelkorn/git-branch-picker/commit/7cd5fa9d7db7c87d3f0d75b13fe6fba7855da288))
+
 ## [2.0.3](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.2...v2.0.3) (2021-05-31)
 
 
