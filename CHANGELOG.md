@@ -1,3 +1,11 @@
+## [2.0.5](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.4...v2.0.5) (2021-10-02)
+
+
+### Bug Fixes
+
+* **deps:** bump mucho dependencies ([#33](https://github.com/JoepKockelkorn/git-branch-picker/issues/33)) ([1009db0](https://github.com/JoepKockelkorn/git-branch-picker/commit/1009db088b70962aa678ff4d405f88c815a0e300))
+* **pipeline:** loosen commit footer length warning ([fbfbdab](https://github.com/JoepKockelkorn/git-branch-picker/commit/fbfbdab71b1789ad5a666a4ba072dd06ce677dd6))
+
 ## [2.0.4](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.3...v2.0.4) (2021-06-10)
 
 
