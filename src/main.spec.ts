@@ -48,7 +48,9 @@ describe('main', () => {
     expect(consoleSpy).toBeCalledWith(chalk.green('Successfully checked out 1'));
   });
 
-  it('should log an error when thrown', async (done) => {
+  it('should log an error when thrown', async () => {
+    expect.assertions(1);
+
     mockSimpleGit(
       ['1'],
       jest.fn(() => {
@@ -58,15 +60,14 @@ describe('main', () => {
 
     try {
       await main();
-    } catch (error) {
-      expect(error.message).toEqual('Something went wrong');
-      done();
+    } catch (error: unknown) {
+      expect((error as any).message).toEqual('Something went wrong');
     }
   });
 });
 
 function mockSimpleGit(extraBranches: string[] = [], checkoutMock = jest.fn()) {
-  ((simplegit as unknown) as jest.Mock<any, any>).mockImplementationOnce(() => ({
+  (simplegit as unknown as jest.Mock<any, any>).mockImplementationOnce(() => ({
     branchLocal: () => Promise.resolve({ all: ['master', ...extraBranches], current: 'master' }),
     checkout: checkoutMock,
   }));
