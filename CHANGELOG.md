@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.5...v2.0.6) (2022-01-22)
+
+
+### Bug Fixes
+
+* **node:** loosen node constraint ([#34](https://github.com/JoepKockelkorn/git-branch-picker/issues/34)) ([a488b86](https://github.com/JoepKockelkorn/git-branch-picker/commit/a488b866b5b372c1721837f9dbe41f0e20951f8b))
+
 ## [2.0.5](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.4...v2.0.5) (2021-10-02)
 
 
