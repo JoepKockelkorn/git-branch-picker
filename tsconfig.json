@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "commonjs",
+    "module": "esnext",
     "lib": ["ESNext"],
     "outDir": "./dist",
     "rootDir": "./src",
@@ -11,6 +11,5 @@
     "types": ["node"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
-  },
-  "exclude": ["**/*.spec.ts"]
+  }
 }
