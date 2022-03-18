@@ -1,6 +1,6 @@
-import * as inquirer from 'inquirer';
-import simpleGit from 'simple-git/promise';
-import { log, logSuccess } from './logging';
+import inquirer from 'inquirer';
+import simpleGit from 'simple-git';
+import { log, logSuccess } from './logging.js';
 
 export async function main() {
   const git = simpleGit();
