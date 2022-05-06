@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.8...v2.0.9) (2022-05-06)
+
+
+### Bug Fixes
+
+* **deps:** bump minimist to 1.2.6 or higher ([#40](https://github.com/JoepKockelkorn/git-branch-picker/issues/40)) ([cfea81c](https://github.com/JoepKockelkorn/git-branch-picker/commit/cfea81c7fef02818c70997a94425f0d423b7e3ac))
+
 ## [2.0.8](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.7...v2.0.8) (2022-03-18)
 
 
