@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.9...v2.0.10) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** bump all deps ([#45](https://github.com/JoepKockelkorn/git-branch-picker/issues/45)) ([98ca2fb](https://github.com/JoepKockelkorn/git-branch-picker/commit/98ca2fbe83381eca8f4d96a8148bf37b4e230640))
+
 ## [2.0.9](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.8...v2.0.9) (2022-05-06)
 
 
