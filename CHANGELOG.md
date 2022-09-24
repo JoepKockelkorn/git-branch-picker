@@ -1,3 +1,10 @@
+## [2.0.11](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.10...v2.0.11) (2022-09-24)
+
+
+### Bug Fixes
+
+* **deps:** upgrade all deps ([#46](https://github.com/JoepKockelkorn/git-branch-picker/issues/46)) ([6bb286b](https://github.com/JoepKockelkorn/git-branch-picker/commit/6bb286b3a0f106dcb06e723f220e93aef2380e7b))
+
 ## [2.0.10](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.9...v2.0.10) (2022-09-24)
 
 
