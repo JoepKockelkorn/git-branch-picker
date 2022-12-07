@@ -1,3 +1,10 @@
+## [2.0.12](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.11...v2.0.12) (2022-12-07)
+
+
+### Bug Fixes
+
+* **deps:** bump simple-git from 3.14.1 to 3.15.0 ([#47](https://github.com/JoepKockelkorn/git-branch-picker/issues/47)) ([c2f4b5b](https://github.com/JoepKockelkorn/git-branch-picker/commit/c2f4b5b7fbc1c4971ca0cf1d6ba0409df535c5a6))
+
 ## [2.0.11](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.10...v2.0.11) (2022-09-24)
 
 
