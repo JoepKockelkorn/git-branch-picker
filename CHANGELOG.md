@@ -1,3 +1,11 @@
+## [2.0.13](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.12...v2.0.13) (2024-03-18)
+
+
+### Bug Fixes
+
+* disable warning ([dcb53b6](https://github.com/JoepKockelkorn/git-branch-picker/commit/dcb53b655cacdf4ceb54f16dd5970939ec4e1bea))
+* release new version ([9c53b8a](https://github.com/JoepKockelkorn/git-branch-picker/commit/9c53b8a302b7835bf3a86ab9f2e48d05d07b2e26))
+
 ## [2.0.12](https://github.com/JoepKockelkorn/git-branch-picker/compare/v2.0.11...v2.0.12) (2022-12-07)
 
 
