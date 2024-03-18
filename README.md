@@ -9,6 +9,6 @@ This tool allows you to pick a local git branch from a list, instead of running 
 
 License: MIT
 
-## No longer maintained
+## ⚠️ No longer maintained ⚠️
 
 This project is no longer maintained. Please just use `git switch` or `git checkout` instead.
